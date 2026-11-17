@@ -1,0 +1,247 @@
+[
+  {
+    "path": "01模型/A_control/best.onnx",
+    "bytes": 11545141,
+    "sha256": "266d9190277d8dda4b1c971a4b9f22ef01fa946425e4e57e1696334ae76db8e1"
+  },
+  {
+    "path": "01模型/A_control/best.pt",
+    "bytes": 5992932,
+    "sha256": "7ead5c3b0bbce7430801c96615124693fa21cc1ba8c5c090c2474bdcc86c20a4"
+  },
+  {
+    "path": "01模型/B_shadow/best.onnx",
+    "bytes": 11545140,
+    "sha256": "232339beb8150cfa201a628da109511f12af65e2322037038a05aa49a00dafed"
+  },
+  {
+    "path": "01模型/B_shadow/best.pt",
+    "bytes": 5992932,
+    "sha256": "c7935b10b81c2d20a068c61a7b0d030589b39b407642e46d2349a4716ecb23b1"
+  },
+  {
+    "path": "02代码/export_onnx.py",
+    "bytes": 492,
+    "sha256": "237d4ff667b7590f30840b7287da0db17ab34539740659fd1c7825c6c2ab3b38"
+  },
+  {
+    "path": "02代码/infer_onnx.py",
+    "bytes": 3524,
+    "sha256": "85eef50b0cfae51438cd5171413a77fd44fd5900a90dd1fbd1b39abf75e782c4"
+  },
+  {
+    "path": "02代码/predict_pt.py",
+    "bytes": 754,
+    "sha256": "c63c90d504094d7821281522463d8e86fff0ffd8de01e741f0f578d8f1b83af2"
+  },
+  {
+    "path": "02代码/requirements_onnx.txt",
+    "bytes": 76,
+    "sha256": "7a974c18776af931b632a60f7e0b970284a76672a9b1136d9cc3c3f69b965408"
+  },
+  {
+    "path": "02代码/requirements_pt.txt",
+    "bytes": 184,
+    "sha256": "5bbf078d99c6426cc8569b5413cb1a868d37ed607a25f5af8e593fe1a4f7bc42"
+  },
+  {
+    "path": "02代码/原始实验脚本/analyze_cached_errors.py",
+    "bytes": 3697,
+    "sha256": "dbd8d1ee84614d5af3a60b9b922831619a7ea00351542f84a2203c977cca94d7"
+  },
+  {
+    "path": "02代码/原始实验脚本/check_candidate_labels.py",
+    "bytes": 2625,
+    "sha256": "cbaf6fa897208dbb69bc9e0b51a02a1b046280d85e06b3f058672b7c69c861f0"
+  },
+  {
+    "path": "02代码/原始实验脚本/evaluate_candidates.py",
+    "bytes": 4196,
+    "sha256": "d79913b3ec7b3ca28b96c78ae9138704adb7e1b504b3c3d5ab4408556f280353"
+  },
+  {
+    "path": "02代码/原始实验脚本/finalize.py",
+    "bytes": 3871,
+    "sha256": "17065c8ddc9b49912a197e290a3db06d6e549384406be391cf378aa7889cf6b0"
+  },
+  {
+    "path": "02代码/原始实验脚本/run.py",
+    "bytes": 4701,
+    "sha256": "4bfc1e4a93aa30515dd8ee4437e47cc183e3d75be735f6f0044889b7400b6cda"
+  },
+  {
+    "path": "02代码/本机验证版本.json",
+    "bytes": 185,
+    "sha256": "193c58cef169655d381255ad6b1d5352e908db8b8f17b403ebe0d71c05bbacda"
+  },
+  {
+    "path": "03训练记录/A_control/args.yaml",
+    "bytes": 2242,
+    "sha256": "e2a3e4d31faa5cf6a463e05d7054deb31e241cadac812c5f8668f8f448a457fc"
+  },
+  {
+    "path": "03训练记录/A_control/results.csv",
+    "bytes": 2035,
+    "sha256": "7e9fd4d05f099c68fa2cd8074c927c87b437280d9175283a2bca33fe5069df14"
+  },
+  {
+    "path": "03训练记录/A_control/results.png",
+    "bytes": 419724,
+    "sha256": "f2a3a10a120d7d00ed31e280f93ae94d3fcdb6c0695531306633f4c55c9a2216"
+  },
+  {
+    "path": "03训练记录/B_shadow/args.yaml",
+    "bytes": 2239,
+    "sha256": "58b4413c1337f032a9ee49c187dad4134a05b1891a4382e0d17da4038792b11a"
+  },
+  {
+    "path": "03训练记录/B_shadow/results.csv",
+    "bytes": 2026,
+    "sha256": "e26768c21c5feb05b58fba7ca9c0dce93a2ccddb6a81142e144cc1cf8679c354"
+  },
+  {
+    "path": "03训练记录/B_shadow/results.png",
+    "bytes": 416972,
+    "sha256": "33560ce50e18054ce3887f84824a06dfb4f46e4cc9e6a4631a48e3dbc1807328"
+  },
+  {
+    "path": "03训练记录/comparison.json",
+    "bytes": 624,
+    "sha256": "3e38e0171f1f0806e572d242c0ee4600c8bf6f1092f6a4960fa64526b584190c"
+  },
+  {
+    "path": "03训练记录/frozen_plan.json",
+    "bytes": 1151,
+    "sha256": "6d79c5dea7bc5f80b95462bda6bd3ddc5108f6a406b2572f2c138485bf476244"
+  },
+  {
+    "path": "03训练记录/preparation.json",
+    "bytes": 191,
+    "sha256": "977df6eda99dc9fd9c3c70c97459da4456d2369e97f84b8ff6378e733ebe144d"
+  },
+  {
+    "path": "03训练记录/training_manifest.json",
+    "bytes": 553777,
+    "sha256": "34431f94d657c1990f2664355598bee6cb352c1f17b4bc864a29fcd5e651816e"
+  },
+  {
+    "path": "03训练记录/历史数据划分_manifest.json",
+    "bytes": 1037297,
+    "sha256": "7c76f1f11d63212b01f63e4c402ebd53fb4cbd8ce6275b54cef63e6027e32323"
+  },
+  {
+    "path": "03训练记录/训练结论.md",
+    "bytes": 2268,
+    "sha256": "4dbb8a23ef04d04869bf55953eab75d3b00a53c095a11f18ad954f9508285b56"
+  },
+  {
+    "path": "04演示样例/A_control_Part03_0624_ONNX.jpg",
+    "bytes": 98762,
+    "sha256": "77298097ed185e9a98b26e1550c94e2bb2cb3dee72dc9ffc85605481b10ec4cd"
+  },
+  {
+    "path": "04演示样例/A_control_Part08_1065_ONNX.jpg",
+    "bytes": 34689,
+    "sha256": "6c5f345942eb4a6b2caa5fc63c883862a27dc55b01df39277e1772bd097dc08d"
+  },
+  {
+    "path": "04演示样例/A_control_Part08_1087_ONNX.jpg",
+    "bytes": 40823,
+    "sha256": "40152ebd2d77d684edbe7a279406ff91ca1914bdf62a64e1d0f6cf3bcc66b0f5"
+  },
+  {
+    "path": "04演示样例/B_shadow_Part03_0624_ONNX.jpg",
+    "bytes": 99828,
+    "sha256": "3ac3099c6e664cca194b3dbe85bbcf705860b6d23cccdd2f500c228a3494063a"
+  },
+  {
+    "path": "04演示样例/B_shadow_Part08_1065_ONNX.jpg",
+    "bytes": 34492,
+    "sha256": "ec383b1745398df9960a7906b7350ac0abb9306e9857d108e9b427562c12a8a9"
+  },
+  {
+    "path": "04演示样例/B_shadow_Part08_1087_ONNX.jpg",
+    "bytes": 40815,
+    "sha256": "324456ed696ea735b1c69e568ef14bad5dc7ad6d10e3cbaa806eb259853e8668"
+  },
+  {
+    "path": "04演示样例/Part01_0003_comparison.jpg",
+    "bytes": 61893,
+    "sha256": "0b1c65d7c8242755570538b7835de9e8ede4f2912cad291722c1967c53762422"
+  },
+  {
+    "path": "04演示样例/Part01_0019_comparison.jpg",
+    "bytes": 46642,
+    "sha256": "7771d404eb5f7078ffedc3f977f627e114574d2db52673d91be792a8e6958d87"
+  },
+  {
+    "path": "04演示样例/Part02_0286_comparison.jpg",
+    "bytes": 51972,
+    "sha256": "925cff21de0ba8e98340acc49de1d3a8d5fd8c47cb7f84a1f28f9e6d29324de6"
+  },
+  {
+    "path": "04演示样例/Part03_0624.jpg",
+    "bytes": 245309,
+    "sha256": "bb0a503e74693caa23de49e8b7893765db15998d239532060289695cec95fb94"
+  },
+  {
+    "path": "04演示样例/Part04_0717_comparison.jpg",
+    "bytes": 53083,
+    "sha256": "80c9a54e82f6c404aca6fc5ace2bf798497da133d517db3b14cca444f59f159c"
+  },
+  {
+    "path": "04演示样例/Part05_0737_comparison.jpg",
+    "bytes": 69711,
+    "sha256": "2ccc1cb293817a9530cb417347003cd9c90da0525b059006802a4167321f014c"
+  },
+  {
+    "path": "04演示样例/Part06_1480_comparison.jpg",
+    "bytes": 49490,
+    "sha256": "876a75be675fe3296a65e2fb5489004266ea161d89ffddd42805c23b5ebc81cb"
+  },
+  {
+    "path": "04演示样例/Part07_0873_comparison.jpg",
+    "bytes": 39154,
+    "sha256": "02abcb4b5ea3cf32d2cc0ee8ea521287c6e8af8e54924cfcdc63e90673b03692"
+  },
+  {
+    "path": "04演示样例/Part08_1065.jpg",
+    "bytes": 82554,
+    "sha256": "87db5ad7fc41c821a258b60c65e186bb081a289ba648ebc38dd4afaedaac4543"
+  },
+  {
+    "path": "04演示样例/Part08_1087.jpg",
+    "bytes": 77581,
+    "sha256": "ceb3b7291efc355b691edaea8511e00df1f6c0e47ef39f8b59471ebd014f672b"
+  },
+  {
+    "path": "04演示样例/Part09_1232_comparison.jpg",
+    "bytes": 52589,
+    "sha256": "820ecfd5e0985c5906c6335bdf4c0ddbe4beede7063a58ba6197a2535002d7bf"
+  },
+  {
+    "path": "05手机接入说明/依赖许可/LICENSE",
+    "bytes": 34523,
+    "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  },
+  {
+    "path": "05手机接入说明/接口与哈希.json",
+    "bytes": 1492,
+    "sha256": "6511826f4620992896e289485dcda7c1fa7f7f5cf9f5ca832f2036e69c7071cb"
+  },
+  {
+    "path": "05手机接入说明/模型接口.md",
+    "bytes": 2329,
+    "sha256": "79ba020051a7fa85a7aa8aa0e1f5896af2e253b9744d4689fc3d99577e1c88d7"
+  },
+  {
+    "path": "05手机接入说明/电脑端导出一致性检查.json",
+    "bytes": 1558,
+    "sha256": "c3c1b010d7727a13b11074dd8c8b36b219eedaed360cc03652127e2eeb4357d9"
+  },
+  {
+    "path": "先读我_交接说明.md",
+    "bytes": 3995,
+    "sha256": "7d699d2f525d05d772c5053312804899b1fb21f627783ca3b43ca5cb3ac983a9"
+  }
+]

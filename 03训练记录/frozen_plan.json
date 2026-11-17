@@ -1,0 +1,30 @@
+{
+  "authorization": "2026-11-16 user requests newly trained demonstration and automatic next steps",
+  "purpose": "development demonstration; no independent or shadow subgroup accuracy claim",
+  "train": 859,
+  "val": 527,
+  "source": "existing TP grouped development manifest; no Axonix samples mixed",
+  "historically_exposed": true,
+  "initialization": "C:\\Users\\okiki\\Documents\\Codex\\2026-10-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\navigation-study\\models\\yolo11n-seg.pt",
+  "initialization_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+  "epochs_per_arm_cap": 10,
+  "time_hours_per_arm_cap": 0.9,
+  "arms": [
+    "A_control",
+    "B_shadow"
+  ],
+  "only_changed_factor": "deterministic extra soft polygon darkening on ~50% training images in B; A/B PNG re-encoding identical",
+  "synthetic_shadow_is_real_shadow": false,
+  "seed": 42,
+  "imgsz": 416,
+  "batch": 8,
+  "workers": 0,
+  "amp": false,
+  "mask_ratio": 4,
+  "overlap_mask": true,
+  "optimizer": "AdamW",
+  "lr0": 0.001,
+  "new_downloads": false,
+  "final_test": null,
+  "human_condition_truth": null
+}

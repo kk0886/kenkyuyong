@@ -1,0 +1,18 @@
+[
+  {
+    "arm": "A_control",
+    "epochs_completed": 10,
+    "best_development_mask_mAP50_95": 0.49609,
+    "best_development_mask_mAP50": 0.66397,
+    "best_metric_epoch": "10",
+    "note": "best CSV mask metric epoch may differ from checkpoint combined fitness; not pixel IoU or independent test"
+  },
+  {
+    "arm": "B_shadow",
+    "epochs_completed": 10,
+    "best_development_mask_mAP50_95": 0.47929,
+    "best_development_mask_mAP50": 0.66387,
+    "best_metric_epoch": "10",
+    "note": "best CSV mask metric epoch may differ from checkpoint combined fitness; not pixel IoU or independent test"
+  }
+]

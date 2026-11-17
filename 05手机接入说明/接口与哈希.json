@@ -1,0 +1,76 @@
+{
+  "A_control": {
+    "inputs": [
+      {
+        "name": "images",
+        "shape": [
+          1,
+          3,
+          416,
+          416
+        ],
+        "type": "tensor(float)"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output0",
+        "shape": [
+          1,
+          37,
+          3549
+        ],
+        "type": "tensor(float)"
+      },
+      {
+        "name": "output1",
+        "shape": [
+          1,
+          32,
+          104,
+          104
+        ],
+        "type": "tensor(float)"
+      }
+    ],
+    "pt_sha256": "7ead5c3b0bbce7430801c96615124693fa21cc1ba8c5c090c2474bdcc86c20a4",
+    "onnx_sha256": "266d9190277d8dda4b1c971a4b9f22ef01fa946425e4e57e1696334ae76db8e1"
+  },
+  "B_shadow": {
+    "inputs": [
+      {
+        "name": "images",
+        "shape": [
+          1,
+          3,
+          416,
+          416
+        ],
+        "type": "tensor(float)"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output0",
+        "shape": [
+          1,
+          37,
+          3549
+        ],
+        "type": "tensor(float)"
+      },
+      {
+        "name": "output1",
+        "shape": [
+          1,
+          32,
+          104,
+          104
+        ],
+        "type": "tensor(float)"
+      }
+    ],
+    "pt_sha256": "c7935b10b81c2d20a068c61a7b0d030589b39b407642e46d2349a4716ecb23b1",
+    "onnx_sha256": "232339beb8150cfa201a628da109511f12af65e2322037038a05aa49a00dafed"
+  }
+}

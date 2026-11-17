@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "arm": "A_control",
+      "image": "Part03_0624.jpg",
+      "onnx_pt_union_mask_iou": 1.0,
+      "onnx_instances": 2,
+      "pt_instances": 2,
+      "onnx_runtime_cpu": true,
+      "mobile_tested": false
+    },
+    {
+      "arm": "A_control",
+      "image": "Part08_1065.jpg",
+      "onnx_pt_union_mask_iou": 0.9649538106235566,
+      "onnx_instances": 1,
+      "pt_instances": 1,
+      "onnx_runtime_cpu": true,
+      "mobile_tested": false
+    },
+    {
+      "arm": "A_control",
+      "image": "Part08_1087.jpg",
+      "onnx_pt_union_mask_iou": 1.0,
+      "onnx_instances": 1,
+      "pt_instances": 1,
+      "onnx_runtime_cpu": true,
+      "mobile_tested": false
+    },
+    {
+      "arm": "B_shadow",
+      "image": "Part03_0624.jpg",
+      "onnx_pt_union_mask_iou": 1.0,
+      "onnx_instances": 2,
+      "pt_instances": 2,
+      "onnx_runtime_cpu": true,
+      "mobile_tested": false
+    },
+    {
+      "arm": "B_shadow",
+      "image": "Part08_1065.jpg",
+      "onnx_pt_union_mask_iou": 0.9747222385515255,
+      "onnx_instances": 1,
+      "pt_instances": 1,
+      "onnx_runtime_cpu": true,
+      "mobile_tested": false
+    },
+    {
+      "arm": "B_shadow",
+      "image": "Part08_1087.jpg",
+      "onnx_pt_union_mask_iou": 0.9960097911008282,
+      "onnx_instances": 1,
+      "pt_instances": 1,
+      "onnx_runtime_cpu": true,
+      "mobile_tested": false
+    }
+  ],
+  "note": "3 samples per model, CPU reference masks only, not accuracy or mobile performance test"
+}
